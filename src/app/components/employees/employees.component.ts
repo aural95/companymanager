@@ -31,7 +31,7 @@ export class EmployeesComponent implements OnInit {
     });
 
     this.events = [
-      { title: 'Sua', start: '2023-07-20T10:00:00', end: '2023-07-20T17:30:00', color: '#A7BED3' },
+      { title: 'Sua 1pm = 5pm', start: '2023-07-20T10:00:00', end: '2023-07-20T17:30:00', color: '#A7BED3' },
       { title: 'Laura', start: '2023-07-20T17:30:00', end: '2023-07-20T23:30:00', color: '#957DAD' },
       { title: 'Byeol', start: '2023-07-21T10:00:00', end: '2023-07-21T17:30:00', color: '#fb6f92' },
       { title: 'Sua', start: '2023-07-21T12:30:00', end: '2023-07-21T22:30:00', color: '#A7BED3' },
