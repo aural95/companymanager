@@ -44,6 +44,7 @@ p {
 }
 
 a {
+    font-family: "Kanit";
     color: #3f84fc;
     text-decoration: none;
     background-color: transparent;
@@ -55,7 +56,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Kanit";
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
@@ -187,7 +188,7 @@ h1, .h1 {
 }
 
 .brand-logo {
-    font-family: "Nunito", sans-serif;
+    font-family: "Kanit";
     font-weight: bold;
     font-size: 20px;
     display: -webkit-box;
