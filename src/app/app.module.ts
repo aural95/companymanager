@@ -9,6 +9,7 @@ import { EmployeesComponent } from './components/employees/employees.component';
 import { SalesComponent } from './components/sales/sales.component';
 
 import { FullCalendarModule } from '@fullcalendar/angular';
+import { PaymentsComponent } from './components/payments/payments.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FullCalendarModule } from '@fullcalendar/angular';
     LoginComponent,
     DashboardComponent,
     EmployeesComponent,
-    SalesComponent
+    SalesComponent,
+    PaymentsComponent
   ],
   imports: [
     BrowserModule,

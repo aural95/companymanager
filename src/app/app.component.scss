@@ -179,7 +179,7 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    background-color: #443ea2;
+    background-color: #cb5f3c;
 }
 
 .dashboard-nav a {
@@ -436,3 +436,12 @@ h1, .h1 {
         left: 0;
     }
 }
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+  }
+.logo-image {
+    width: 30px; /* Adjust the width as per your preference */
+    height: auto; /* Preserve aspect ratio */
+  }
