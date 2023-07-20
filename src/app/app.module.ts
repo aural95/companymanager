@@ -8,6 +8,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { EmployeesComponent } from './components/employees/employees.component';
 import { SalesComponent } from './components/sales/sales.component';
 
+import { FullCalendarModule } from '@fullcalendar/angular';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { SalesComponent } from './components/sales/sales.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

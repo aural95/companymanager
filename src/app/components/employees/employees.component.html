@@ -1,1 +1,33 @@
-<p>employees works!</p>
+<div class="container">
+    <div class="row">
+        <h1>Shifts</h1>
+        <div class="col-sm-2">
+            <div id="external-events">
+                <br><br>
+                <p>
+                    <strong>Available Staff</strong>
+                </p>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event' data-event="{ title: 'Sua',  color: '#A7BED3' }">
+                    <div class='fc-event-main'>Sua</div>
+                </div><br>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                    <div class='fc-event-main'>Laura</div>
+                </div><br>
+                <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+                    <div class='fc-event-main'>Byeol</div>
+                </div>
+<!-- 
+                <div class="fc-event" id="event1" data-event="{ title: 'Sua',  color: '#A7BED3' }">Sua
+                </div>
+                <div class="fc-event" id="event2" data-event="{ title: 'Laura',  color: '#957DAD' }">Laura
+                </div>
+                <div class="fc-event" id="event3" data-event="{ title: 'Byeol',  color: '#fb6f92' }">Byeol</div> -->
+            </div>
+        </div>
+
+        <!-- Right column (larger) -->
+        <div class="col-sm-10">
+            <full-calendar [events]="events" [options]="options"></full-calendar>
+        </div>
+    </div>
+</div>
